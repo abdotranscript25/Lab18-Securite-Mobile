@@ -149,7 +149,7 @@ frida -U -p 2028 -l frida_firestorm.js
 
 ```bash
 
-[+] Mot de passe généré : C7_dotpsC7t7f_._In_i.IdttpaofoaIIdIdnndIfC
+[+] Mot de passe généré : C7_d......sC..t7f_._In......IdId......dIfC
 
 ```
 
@@ -161,9 +161,9 @@ frida -U -p 2028 -l frida_firestorm.js
 import requests
 import json
 
-api_key = "AIzaSyAXsK0qsx4RuLSA9C8IPSWd0eQ67HVHuJY"
+api_key = "AIzaSy.................eQ67...HuJY"
 email = "TK757567@pwnsec.xyz"
-password = "C7_dotpsC7t7f_._In_i.IdttpaofoaIIdIdnndIfC"
+password = "C7_d......sC..t7f_._In......IdId......dIfC"
 
 # Authentification
 url = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={api_key}"
